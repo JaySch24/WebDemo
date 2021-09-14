@@ -75,8 +75,12 @@ h2, h3{
     text-align: center;
 }
 
-section img, aside img{
-    width: 100% auto;
+section img{
+    width: 75%;
+}
+
+ aside img{
+    width: 75%;
 }
 
 .button{
@@ -164,12 +168,8 @@ table{
         width: 70%;
     }
 
-    section img{
+    section img, aside img{
         width: 50%
-    }
-
-    aside img{
-        width: 40%;
     }
 
     .col img{
