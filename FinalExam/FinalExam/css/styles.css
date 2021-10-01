@@ -1,0 +1,276 @@
+body{
+    background-color: black;
+}
+
+img {
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+#container{
+    background-color:darkslategray;
+    margin: 10px;
+    padding: 11px;
+}
+
+header h1{
+color: white;
+text-shadow: 5px 5px 5px black;
+text-align: center;
+font-size: 4em;
+font-family: 'Anton', sans-serif;
+}
+
+h3{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+h4{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    font-size: 1em;
+}
+
+section{
+    color: white;
+    text-shadow: 3px 3px 3px black ;
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+}
+    nav ul{
+        list-style-type: none;
+        padding: 10px;
+    }
+    
+    nav li{
+        display: block;
+    }
+    
+    nav li a{
+        display: block;
+        background-color:black;
+        color: white;
+        border: darkred;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 10px 0 auto;
+        border-radius: 10px;
+        font-style: italic;
+    }
+    
+    nav li a:hover{
+        background-color:darkred;
+        text-shadow: 2px 2px 2px darkred;
+    }
+    
+    nav, section, aside, .col, footer{
+        background-color: gray;
+        padding: 40px;
+        margin: 15px auto;
+        border: 5px solid black;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .col img{
+        width: 50%;
+    }
+    
+    h2, h3{
+        color: black;
+        text-shadow: 1px 1px 1px darkred;
+        font-size: 1.78em;
+        text-align: center;
+    }
+    
+    section img, aside img{
+        width: 25%;
+    }
+
+    #galleryflex img{
+        padding: 20px 20px 20px;
+    }
+    
+    .button{
+        display: block;
+        background-color:black;
+        color: white;
+        width: 175px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        margin: 15px auto;
+        border-radius: 25px;
+        font-style: italic;
+    }
+    
+    .button:hover {
+        background-color:darkred;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    footer{
+        text-align: center;
+        color:black;
+    }
+    
+    audio{
+        display: block;
+        margin: 10px auto;
+        width: 75%;
+    }
+    
+    video{
+        display: block;
+        margin: 20px auto;
+        width: 100% ;
+        height: auto;
+    }
+    
+    table{
+        display: none;
+    }
+
+    aside table, aside tr, aside td{
+        display: block;
+        border: darkred;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    
+    /* Tablet Styles */
+    
+    @media(min-width: 768px){
+        header{
+            padding: 20px;
+            font-size: 1.3em;
+            font-style: italic;
+            
+        }
+    
+        header h1{
+            font-size: 3em;
+        }
+    
+        nav{
+            text-align: center;
+            padding: 5px;
+        }
+    
+        nav li{
+            display: inline-block;
+        }
+    
+        nav li a{
+            height: 50px;
+            line-height: 50px;
+            width: 200px
+        }
+    
+        #upper_flex{
+            display: flex;
+        }
+    
+        section, aside{
+            width: 70%;
+        }
+    
+        section img{
+            width: 50%
+        }
+    
+        aside img{
+            width: 40%;
+        }
+    
+        .col img{
+            width: 40%;
+        }
+    
+        .single_col{
+            width: 90%;
+        }
+    
+        footer{
+            padding-bottom: 20px;
+        }
+    
+        table{
+            display: none;
+        }
+        
+        video{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    
+    /* Desktop Styles */
+    
+    @media(min-width: 1024px){
+        #container{
+            width: 75%;
+            margin: 20px auto;
+            border: 4px solid black;
+            border-radius: 20px;
+        }
+    
+        header{
+            padding: 20px;
+            border-radius: 20px 20px 0 0;
+        }
+    
+        nav li a{
+            margin: 0 20px;
+        }
+    
+        #lower_flex{
+            display: flex;
+        }
+    
+        .col{
+            width: 100%;
+        }
+    
+        .col img{
+            width: 100%;
+        }
+    
+        table, tr, td{
+            border: 4px solid darkred;
+            padding: 10px;
+            margin: 10px;
+        }
+    
+        table img{
+            width: 100%;
+        }
+
+        table{
+            display: block;
+        }
+    
+    }
+
+
